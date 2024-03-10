@@ -1,2 +1,2 @@
 # SqlHunter
-dork kullanarak swl açıklı siteleri bulmanıza yardımcı olmak için hazırlanmıştır
+dork kullanarak sql açıklı siteleri bulmanıza yardımcı olmak için hazırlanmıştır
