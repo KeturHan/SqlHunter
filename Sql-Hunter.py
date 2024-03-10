@@ -51,13 +51,13 @@ banner = ("""
                                                                                 
 """)
 banner_terminal = terminal_banner.Banner(banner)
-print (colored(banner_terminal, 'green')+ "\n")
+print (colored(banner_terminal, 'red')+ "\n")
 
 website_list=[] #list of websites
-dork = "inurl:" + input(colored("Sql Dorkunu gir(ör.- php?id=, aspx?id=) ---->  ",'cyan'))
-extension = "site:" + input(colored("website uzantısını gir(ör- .in,.com,.pk) [default:hayır] -----> ",'cyan')) #Add none as extension
-total_output = int(input(colored("Kaç tane websitesi bulmak istediğini belirt) ----> ",'cyan')))
-page_no = int(input(colored("Aramanın kaçıncı sayfadan başlayacagını belirt(eg- 1,2,3) ----> ",'cyan')))
+dork = "inurl:" + input(colored("Sql Dorkunu gir(ör.- php?id=, aspx?id=) ---->  ",'green'))
+extension = "site:" + input(colored("website uzantısını gir(ör- .in,.com,.pk) [default:hayır] -----> ",'green')) #Add none as extension
+total_output = int(input(colored("Kaç tane websitesi bulmak istediğini belirt) ----> ",'green')))
+page_no = int(input(colored("Aramanın kaçıncı sayfadan başlayacagını belirt(eg- 1,2,3) ----> ",'green')))
 
 if extension == "site:":
     extenstion = ""
